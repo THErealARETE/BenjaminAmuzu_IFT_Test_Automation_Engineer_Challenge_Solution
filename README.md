@@ -30,8 +30,8 @@ IFT-Automation/
 ## Prerequisites
 
 - Python 3.9+
-- Docker
-- Waku node image (`wakuorg/nwaku:v0.24.0`)
+- Docker (ensure the daemon is running, e.g by starting the Docker Desktop)
+- Waku node image (`wakuorg/nwaku:v0.24.0`) (This will download at first connection)
 
 ## Installation
 
