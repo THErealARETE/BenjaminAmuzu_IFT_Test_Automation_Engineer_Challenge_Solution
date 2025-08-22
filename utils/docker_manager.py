@@ -206,7 +206,7 @@ class DockerNetworkManager:
             ], capture_output=True, check=True)
             print(f"Created Docker network: {self.name}")
         except subprocess.CalledProcessError as e:
-            if "already exists" in e.stderr:
+            if "already exists" in e.stderr.decode:
                 print(f"Network {self.name} already exists")
             else:
                 raise RuntimeError(f"Failed to create Docker network: {e.stderr}")
