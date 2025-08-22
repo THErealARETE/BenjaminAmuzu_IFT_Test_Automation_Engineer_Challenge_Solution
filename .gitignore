@@ -1,0 +1,60 @@
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+.vscode/
+
+
+# pytest cache
+.pytest_cache/
+tests/.pytest_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+coverage/
+
+# Test reports and outputs
+reports/
+report.html
+waku_test_report_*
+*.xml
+*.json
+*.log
+
+# OS generated files
+.DS_Store
+
+# Database files
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.prod
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+
+# MacOS
+*.DS_Store
+
+# Windows
+[Tt]humbs.db

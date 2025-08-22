@@ -1,0 +1,7 @@
+pytest
+requests
+pydantic
+pytest-dependency
+pytest-html
+pytest-cov
+pytest-xdist
